@@ -1,0 +1,19 @@
+{
+  "name": "fastexchanger",
+  "version": "1.0.0",
+  "description": "Production-grade Discord Exchanger & Middleman Bot",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.4.3",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
